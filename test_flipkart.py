@@ -44,7 +44,7 @@ def test_flipkart():
         print("\nJust checking exception Handling for " + offer.text)
 
     except:
-        print("We could not find any offers")
+        print("We could not find any offers for you, please try later..!!")
 
 def test_cont():
     try:
