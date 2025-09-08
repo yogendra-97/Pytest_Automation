@@ -58,7 +58,7 @@ def test_cont():
         m34 = WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.LINK_TEXT, "SAMSUNG Galaxy M34 5G without charger (Prism Silver, 128 GB)"))
         )
-        print("We found " + m34.text)
+        print("We found: " + m34.text)
 
     except:
         pass
